@@ -1,7 +1,14 @@
 {
   "name": "brndnsvr",
-  "owner": { "name": "Brandon Seaver" },
+  "owner": {
+    "name": "Brandon Seaver"
+  },
+  "description": "Brandon Seaver's Claude Code plugins.",
   "plugins": [
-    { "name": "adhd-mode", "source": "./plugins/adhd-mode", "description": "One item at a time: a working mode for Claude Code that keeps replies short, decisions single, and every reply resumable." }
+    {
+      "name": "adhd-mode",
+      "source": "./plugins/adhd-mode",
+      "description": "One item at a time: a working mode for Claude Code that keeps replies short, decisions single, and every reply resumable."
+    }
   ]
 }
