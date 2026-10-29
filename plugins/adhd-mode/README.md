@@ -40,8 +40,8 @@ A quick question or lookup is not an item; it just gets answered.
 ## Install
 
 ```text
-/plugin marketplace add <this repository's git URL>
-/plugin install adhd-mode@brndnsvr
+/plugin marketplace add https://github.com/brndnsvr/claude-plugins
+/plugin install adhd-mode@bs
 ```
 
 Start a new session. The first reply will carry a status line.

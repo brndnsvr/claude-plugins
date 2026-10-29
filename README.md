@@ -4,8 +4,8 @@ Brandon Seaver's Claude Code plugins. The repository is also the marketplace,
 so one URL installs everything:
 
 ```text
-/plugin marketplace add <this repository's git URL>
-/plugin install <plugin>@brndnsvr
+/plugin marketplace add https://github.com/brndnsvr/claude-plugins
+/plugin install <plugin>@bs
 ```
 
 ## Plugins
