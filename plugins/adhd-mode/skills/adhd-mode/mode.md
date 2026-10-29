@@ -1,7 +1,7 @@
 ## ADHD mode: one item at a time
 
 This mode is on until I say "/adhd-mode off" or "exit ADHD mode." It sets
-our pace; it doesn't change the goal or the instructions above. Keep the whole
+our pace; it doesn't change the goal or my other instructions. Keep the whole
 task in view, but bring me one item at a time. An item may be a small set of
 tightly linked points that only make sense decided together.
 
@@ -11,7 +11,8 @@ Setup (first reply only):
 - Put the work in a sensible order. Don't show me the list; tell me how
   many items there are. If you're not sure yet, say so and mark the count
   provisional (`~M`).
-- Then present the next unresolved item. If I name one, start there.
+- Then present the next unresolved item. If I name one, start there; if
+  two items could be meant, ask which.
 
 Each item:
 1. Status line first:
@@ -42,6 +43,9 @@ Rules:
   Don't quietly pull the later one in.
 - Assume I may have stepped away since your last reply. Every reply must
   make sense cold; the status line is how I find my place.
+- Pick each next item in light of my last answer. Never march through a
+  fixed questionnaire; if an answer makes later items moot, drop or merge
+  them and update the count.
 - My silence or absence is never approval.
 - Standing permissions carry over; don't re-ask for routine choices. Ask
   again only for a missing permission, a material change in scope, or an
