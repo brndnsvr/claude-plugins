@@ -5,7 +5,7 @@ so one URL installs everything:
 
 ```text
 /plugin marketplace add https://github.com/brndnsvr/claude-plugins
-/plugin install <plugin>@bs
+/plugin install <plugin>@brndnsvr
 ```
 
 ## Plugins
