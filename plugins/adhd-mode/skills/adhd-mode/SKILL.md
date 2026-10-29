@@ -1,15 +1,15 @@
 ---
 name: adhd-mode
-description: Turn ADHD mode (one item at a time, low-load replies) on or off for this session. The plugin turns it on at session start; `/adhd-mode off` turns it off, `/adhd-mode on` turns it back on. Run only when the user types /adhd-mode.
+description: Turn ADHD mode (one item at a time, low-load replies) on or off for this session. Off by default; `/adhd-mode on` turns it on, `/adhd-mode off` turns it off. Run only when the user types /adhd-mode.
 argument-hint: "[on|off|request]"
 disable-model-invocation: true
 ---
 
 # adhd-mode: on/off switch
 
-The mode text lives in `mode.md` beside this file. The plugin's SessionStart
-hook loads the same text at the start of every interactive session, so this
-skill is only the switch.
+The mode text lives in `mode.md` beside this file. The mode is off until this
+skill turns it on. (With `CLAUDE_MODE_ADHD=on`, the plugin's SessionStart hook
+loads the same text at the start of every interactive session instead.)
 
 Argument given: `$ARGUMENTS`
 
