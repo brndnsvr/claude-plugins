@@ -1,0 +1,6 @@
+{
+  "name": "adhd-mode",
+  "version": "0.1.0",
+  "description": "One item at a time: a working mode that keeps replies short, decisions single, and every reply resumable. On by default; /adhd-mode off turns it off.",
+  "author": { "name": "Brandon Seaver" }
+}

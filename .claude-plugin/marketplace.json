@@ -1,0 +1,7 @@
+{
+  "name": "brndnsvr",
+  "owner": { "name": "Brandon Seaver" },
+  "plugins": [
+    { "name": "adhd-mode", "source": "./plugins/adhd-mode", "description": "One item at a time: a working mode for Claude Code that keeps replies short, decisions single, and every reply resumable." }
+  ]
+}
