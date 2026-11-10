@@ -12,9 +12,11 @@ It says nothing about sub-agents, models, or effort.
 The mode is off until you run `/adhd-mode on`. While it is on:
 
 - Claude orders the work internally and tells you how many items there are.
-- Each reply starts with `Item N of M · <title> · <done> done · <parked> parked`.
-- Each reply carries one decision, in about six lines: what, why, the
-  recommendation, the main risk.
+- Each reply starts with `N of M · <title> · <done> done · <parked> parked`.
+- Each reply carries one decision as a fixed card of one-line bullets:
+  what, why, the recommendation with a % leaning, and the main risk.
+- Claude tracks the agreed items in its task list as it goes, without
+  showing you the list.
 - Claude stops and waits for you. It never works ahead on later items.
 - After you decide, it does the item, reports what it verified, and brings
   the next one in the same reply.
